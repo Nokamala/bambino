@@ -1,2 +1,2 @@
-# bambino.github.io
+# bambino
 Hurtownia Zabawek Bambino
