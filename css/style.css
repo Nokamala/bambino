@@ -215,6 +215,13 @@ padding-bottom: 5%;
 }
 
 #godziny_otwarcia ul{
+  width:50%;
   list-style-type:none;
-  display:inline-grid;
+  display:inline-block;
+  text-align:center;
+  clear:both;
 }
+
+.hrs:after {
+  display: table;
+  clear: both;
