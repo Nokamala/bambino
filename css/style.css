@@ -130,4 +130,43 @@ text-align: center;
 
 #nasza_oferta{
   text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.klient main{
+  display:inline-block;
+  width:50%;
+  background:blue;
+  clear: right;
+ }
+
+ .klient h2{
+   padding:2%;
+   font-family: Roboto;
+   font-weight: bold;
+  font-size: 32px;
+  line-height: 127.69%;
+  padding-left: 10%;
+ }
+
+ .klient p{
+   font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 127.69%;
+padding-left: 10%;
+padding-right: 10%;
+ }
+
+ .klient aside{
+   width:50%;
+   float: left;
+ }
+
+
+.klient img{
+  width:100%;
 }
