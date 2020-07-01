@@ -205,23 +205,25 @@ padding-bottom: 5%;
 
 #godziny_otwarcia{
   background-image: url("https://raw.githubusercontent.com/Nokamala/bambino/master/ph.jpg");
-}
-
-#godziny_otwarcia h2, #godziny_otwarcia ul{
-  background:blue;
-  margin-block-start: 0;
-  margin-block-end: 0;
   text-align:center;
 }
 
 #godziny_otwarcia ul{
-  width:50%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 150%;
+/* or 42px */
+
+text-align: center;
+  
+  background:blue;
   list-style-type:none;
-  display:inline-block;
-  text-align:center;
-  clear:both;
+  display: inline-block;
+  padding-inline-start: 0px;
+  padding: 5%;
+  border: solid;
 }
 
-.hrs:after {
-  display: table;
-  clear: both;
+
