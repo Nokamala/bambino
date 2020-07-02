@@ -254,8 +254,32 @@ text-align: center;
   height: fit-content;
 }
 
+#Kontakt h2{
+  font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 150%;
+/* identical to box height, or 72px */
+
+display: inline-block;
+align-items: center;
+text-align: center;
+}
+
+#Kontakt p{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+/* or 208% */
+
+text-align: center;
+}
+
+
 #dane{
-  width:50%;
+  width:45%;
   padding: 2%;
   text-align: center;
   display:inline-block;
@@ -263,10 +287,17 @@ text-align: center;
 }
 
 #dane img{
-  width:20px;
-  height: 20px;
-}
+  width:40px;
+  height: 40px;
+  padding: 5%
+  }
 
 #photo{
-  width: 50;
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+#photo img{
+  width:100%;
 }
