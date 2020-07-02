@@ -247,3 +247,9 @@ text-align: center;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+
+#Kontakt{
+  margin: 5%;
+  background: blue;
+  height: fit-content;
+}
