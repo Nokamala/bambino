@@ -301,3 +301,8 @@ text-align: center;
 #photo img{
   width:100%;
 }
+
+#footer a{
+  width: 20px;
+  hight: 20px;
+}
