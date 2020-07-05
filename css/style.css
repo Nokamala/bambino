@@ -16,7 +16,7 @@
 
 @font-face{
   font-family: Oswald;
-  src: url(css/Oswald/Oswald-Bold.ttf)
+  src: url(bamibino/css/Oswald/Oswald-Bold.ttf)
   font-weight: bold;
 }
 
@@ -37,7 +37,6 @@ header > a{
     background: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Oswald, Roboto;
     font-weight: bold;
     font-size: x-large;
     color: #000000;
