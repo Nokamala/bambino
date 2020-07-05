@@ -250,6 +250,7 @@ text-align: center;
 
 #Kontakt{
   margin: 5%;
+  margin-bottom: 0px;
   background: blue;
   height: fit-content;
 }
@@ -293,14 +294,20 @@ text-align: center;
   }
 
 #photo{
-  width: 50%;
+  width: 10%;
   display: inline-block;
-  float: right;
+  
 }
 
-#photo img{
+#maps{
   width:100%;
+  text-align:center;
+  margin-bottom: 6%;
 }
+
+#maps iframe{
+  width:90%;
+} 
 
 #footer a{
   width: 20px;
