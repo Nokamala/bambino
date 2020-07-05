@@ -1,3 +1,25 @@
+@font-face {
+  font-family: Roboto;
+  src: url(css/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(css/Roboto/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: Oswald;
+  src: url(css/Oswald/Oswald-Regular.ttf)
+}
+
+@font-face{
+  font-family: Oswald;
+  src: url(css/Oswald/Oswald-Bold.ttf)
+  font-weight: bold;
+}
+
 header{
     width:100%;
     background: #71F6FF;
