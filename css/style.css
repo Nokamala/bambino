@@ -1,94 +1,132 @@
 @font-face {
-  font-family: Roboto;
-  src: url(css/Roboto/Roboto-Regular.ttf);
+  font-family:Roboto;
+  src: url('Roboto/Roboto-Regular.ttf');
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url(css/Roboto/Roboto-Bold.ttf);
+  font-family: Roboto-bold;
+  src: url('Roboto/Roboto-Bold.ttf');
   font-weight: bold;
 }
 
-@font-face{
-  font-family: Oswald;
-  src: url(css/Oswald/Oswald-Regular.ttf)
+@font-face {
+  font-family: RobotoLight;
+  src: url('Roboto/Roboto-Light.ttf');
+  font-weight: lighter;
 }
 
 @font-face{
   font-family: Oswald;
-  src: url(bamibino/css/Oswald/Oswald-Bold.ttf)
+  src: url('Oswald/Oswald-Regular.ttf')
+}
+
+@font-face{
+  font-family: Oswald;
+  src: url('Oswald/Oswald-Bold.ttf')
   font-weight: bold;
 }
 
 header{
-    width:100%;
-    background: #71F6FF;
-    height:fit-content;
+  width:100%;
+  background: #ffffff;
 }
 
 #logo{
-    width:12%;
-    margin: 0.5%;
-    display: inline-block;
-    float:left;
+  width:15%;
+  margin: 0.5%;
+  display: inline-block;
+  float:left;
 }
 
 header > a{
-    background: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: x-large;
-    color: #000000;
+  background: white;
+  font-family: Oswald;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: x-large;
+  color: #000000;
+  display: inline-block;
+  margin-top: 0.5%;
+  padding: 1.5%;
+  float: left;
+  font-size: 34px;
+}
+
+#fbheader{
     display: inline-block;
-    margin-top: 0.5%;
-    padding: 2.5%;
-    float: left;
+    float: right;
+    /* clear: left; */
+    margin-right: 5%;
+
 }
 
 header> h1{
-   background: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: x-large;
-    color: #000000;
-    display: inline-block;
-    margin-top: 0.5%;
-    margin-left: 0.5%;
-    padding: 2.5%;
+  background: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 34px;
+  color: #000000;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 30%;
+  padding: 1.5%;
 }
 
 nav{
-    float:right;
-    clear:left;
-    display: inline;
+  float:right;
+  clear: both;
+  display: inline-block;
 }
 
 nav> a{
-     display:inline-block;
-    margin: 0px 0-2px -3px;
-    float: right;
-    padding:5px 40px;
-    border: 3px solid #308D23;
-    border-radius: 20px 20px 0px 0px;
-    font-family: Roboto;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
+  display:inline-block;
+  margin: 0px 0-2px -3px;
+  float: right;
+  padding: 5px 70px;
+  border: 3px solid #308D23;
+  border-radius: 20px 20px 0px 0px;
+  font-family: Roboto;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0F6C02;
+  text-decoration: none;
 }
 
+nav> a:hover{
+  background: #E93083;
+  color: #FFFFFF;
+}
 
+nav> a:active{
+  color: #E93083;
+}
+
+nav> a:focus{
+  background: #E93083;
+  color: #FFFFFF;
+}
 
 hr{
-    width:100%;
-    display: block;
-    clear:both;
-    color: #308D23;
-    border: 2px solid;
+  width:100%;
+  display: block;
+  clear:both;
+  color: #308D23;
+  border: 2px solid;
+  /* margin-top: 11%; */
+}
+
+#firsthr{
+  border: 5px solid;
+}
+
+#lasthr{
+  margin-top:11%;
+  border: 5px solid;
 }
 
 #dziecko-radosne{
@@ -99,28 +137,29 @@ hr{
 #intro main{
   display:inline-block;
   width:50%;
-  background:blue;
+  background:#0A84FF;
   display: table;
   clear: right;
  }
 
- #intro h1{
-   padding:10%;
-   padding-bottom:2%;
-   font-family: Roboto;
+#intro h1{
+  padding:10%;
+  padding-bottom:2%;
+  font-family: Oswald;
+  color: #ffffff;
   font-weight: bold;
   font-size: 54px;
   line-height: 60px;
  }
 
  #intro p{
-   padding:0% 10% 10%;
-   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
+  padding: 0% 10% 14%;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
  }
 
 .promo{
@@ -139,54 +178,77 @@ line-height: 28px;
 
 #promocje figcaption{
   text-align:center;
-  background: blue;
   padding: 5%;
   font-family: Roboto;
-font-weight: 500;
-font-size: 28px;
-line-height: 33px;
-text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
   border-radius: 0px 0px 10px 10px;
+}
 
+#fg_kdr{
+  background: #0A84FF;
+  color: #ffffff;
+}
+
+#kdr{
+  width: 381px;
+  height: 253.8px;
+}
+
+#fg_ksk{
+  background: #308D23;
+  color: #ffffff;
+}
+
+#fg_bon{
+  background: #E93083;
+  color: #ffffff;
 }
 
 #nasza_oferta{
   text-align: center;
   font-weight: bold;
+  font-family: Oswald;
   font-size: 36px;
   line-height: 60px;
+  margin: 2.3%;
+  text-decoration: underline;
 }
 
 .klient main{
   display:inline-block;
   width:50%;
-  background:blue;
   clear: right;
  }
 
- .klient h2{
-   padding:2%;
-   font-family: Roboto;
-   font-weight: bold;
+.klient h2{
+  /* padding:2%; */
+  font-family: Roboto-Bold;
+  /* font-family: Roboto; */
+  /* font-weight: bold; */
   font-size: 32px;
   line-height: 127.69%;
   padding-left: 10%;
+  margin-top: 3px;
+  /* text-align: center; */
  }
 
- .klient p{
-   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 127.69%;
-padding-left: 10%;
-padding-right: 10%;
-padding-bottom: 5%;
+.klient p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 127.69%;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* padding-bottom: 5%; */
  }
 
- .klient aside{
-   width:50%;
-   float: left;
+.klient aside{
+  width:50%;
+  float: left;
  }
 
 
@@ -196,12 +258,18 @@ padding-bottom: 5%;
   border-radius: 0px 50px 50px 0px;
 }
 
+#klient_hurt h2, #klient_przedsz h2{
+  margin-top: 8%
+}
+
 #marki span{
   font-family: Roboto;
   font-size: 32px;
+  font-weight: bold;
   line-height: 273.69%;
   text-align: center;
   display:block;
+  color: #0F6C02;
 }
 
 #marki img{
@@ -217,89 +285,86 @@ padding-bottom: 5%;
 
 #galeria{
   width:100%;
-  background:blue;
+  height: min-content;
 }
 
 #galeria img{
-  width: 33%;
+  height: 355px;
+  width: 33.1%;
   display:inline;
 }
 
-#godziny_otwarcia{
-  background-image: url("https://raw.githubusercontent.com/Nokamala/bambino/master/ph.jpg");
+#godziny_tlo{
+  margin-top: 5%;
+  background: #308D23;
+  background-image: url('../imgs/kredki1.jpg');
   text-align:center;
+  height: fit-content;
+  align-content: center;
+  align-items: center;
+}
+
+#godziny_otwarcia{
+  background: #E93083;
+  color: #ffffff;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 100%;
+  font-family: Oswald;
+  font-size: 28px;
+  line-height: 150%;
 }
 
 #godziny_otwarcia h2{
-  margin-right: 29.3%;
-  margin-left:29.3%;
-  margin-bottom: 0px;
-  padding-top:2%;
-  padding-bottom: 2%;
-  background: blue;
+  padding-top: 8%;
 }
 
 #godziny_otwarcia ul{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 150%;
-/* or 42px */
-
-text-align: center;
-  
-  background:blue;
-  list-style-type:none;
+  padding-top: 0%;
+  font-family: Roboto;
   display: inline-block;
-  padding-inline-start: 0px;
-  padding: 5%;
-  padding-top: 1%;
-  margin-bottom: 0px;
+  list-style-type: none;
+  list-style-position: outside;
+  margin-inline-end: 10px;
 }
 
 #dni_tygodnia{
-  margin-right:0p;
-  margin-block-start: 0em;
-    margin-block-end: 1em;
-}
-
-#hrs{
-  margin-right:0;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  padding-inline-start: 0px;
+  font-weight: bold;
 }
 
 #Kontakt{
   margin: 5%;
   margin-bottom: 0px;
-  background: blue;
-  height: fit-content;
+  background: #0A84FF;
+  color: #ffffff;
+  height: 550px;
 }
 
 #Kontakt h2{
   font-family: Oswald;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 150%;
-/* identical to box height, or 72px */
-
-display: inline-block;
-align-items: center;
-text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
 }
 
 #Kontakt p{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
 /* or 208% */
-
-text-align: center;
+  text-align: center;
 }
 
+#Kontakt a{
+  color: #ffffff;
+  font-size: 24px;
+}
 
 #dane{
   width:45%;
@@ -312,13 +377,18 @@ text-align: center;
 #dane img{
   width:40px;
   height: 40px;
-  padding: 5%
-  }
+  padding: 5%;
+}
 
 #photo{
-  width: 10%;
+  height: 550px;
+  width: 51%;
   display: inline-block;
-  
+}
+
+#photo img{
+  width: 100%;
+  height: 100%;
 }
 
 #maps{
@@ -329,9 +399,51 @@ text-align: center;
 
 #maps iframe{
   width:90%;
-} 
+}
 
-#footer a{
+
+#footerhr{
+  color: #000000;
+  border: 1px solid;
+}
+
+#footertop{
+  display: inline;
+  text-decoration: none;
   width: 20px;
-  hight: 20px;
+  height: 20px;
+  font-family: Oswald;
+  font-face: Oswald;
+  font-weight:bold;
+  margin-left:5%;
+  margin-top: 2%;
+}
+
+#footertop nav{
+  display: inline;
+  height: 20px;
+  font-family: Oswald;
+  font-face: Oswald;
+  font-weight:bold;
+}
+
+#fbfooter{
+  margin-inline-end: 1%;
+  margin-inline-start:30%;
+}
+
+.footernav{
+  color: #000000;
+  text-decoration:none;
+  text-transform: uppercase;
+  margin-right: 50px;
+  float: right;
+}
+
+#footerlower{
+  color: #FFFFFF;
+  text-align:center;
+  margin-top: 1%;
+  padding: 1%;
+  background: #308D23;
 }
