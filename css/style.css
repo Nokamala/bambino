@@ -1,0 +1,771 @@
+@font-face{
+  font-family:Roboto;
+  src: url('Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto-bold;
+  src: url('Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: RobotoLight;
+  src: url('Roboto/Roboto-Light.ttf');
+  font-weight: lighter;
+}
+
+@font-face{
+  font-family: Oswald;
+  src: url('Oswald/Oswald-Regular.ttf')
+}
+
+@font-face{
+  font-family: Oswald;
+  src: url('Oswald/Oswald-Bold.ttf')
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+@media screen and (min-width:340px)
+{
+  body{
+    overflow-x: hidden;
+    margin:0%;
+  }
+
+  header{
+    background: #ffffff;
+  }
+
+  #logo{
+    width:40%;
+    display: inline-block;
+    margin: 1% 30% 0% 30%;
+    float:left;
+  }
+
+  header a{
+    visibility: hidden;
+    display: none;
+  }
+
+  header> h2{
+    visibility: hidden;
+  }
+
+  nav{
+    visibility: hidden;
+    display: none;
+  }
+
+  hr{
+    width:100%;
+    color: #308D23;
+    border: 2px solid;
+  }
+
+  #lasthr{
+    margin-top: 9%;
+    border: 5px solid;
+  }
+
+  #intro{
+    background-color: #0A84FF;
+    width: 100%;
+
+  }
+
+
+  #intro aside{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  #intro article{
+    display:block;
+    width:100%;
+    background:#0A84FF;
+  }
+
+  #intro h1{
+    font-family: Oswald;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3.37em;
+    line-height: 111%;
+    margin-left: 10%;
+  }
+
+  #intro p{
+    padding: 0% 10% 8%;
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 116.4%;
+  }
+
+  #intro p:last-line{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .promo{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #promocje {
+    margin: 10%;
+  }
+
+  #promocje figcaption{
+    text-align:center;
+    padding: 5%;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #fg_kdr{
+    margin-top: -5px;
+    background: #0A84FF;
+    color: #ffffff;
+  }
+
+
+  #fg_ksk{
+    margin-top: -5px;
+    background: #308D23;
+    color: #ffffff;
+  }
+
+  #fg_bon{
+    margin-top: -5px;
+    background: #E93083;
+    color: #ffffff;
+  }
+
+  #nasza_oferta{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: Oswald;
+    font-size: 2.0em;
+    line-height: 100%;
+    text-decoration: underline;
+  }
+
+
+  .klient h2{
+    font-family: Roboto-Bold;
+    font-size: 2em;
+    line-height: 127.69%;
+    margin: 2% auto 0% 0%;
+    text-align: center;
+  }
+
+  .klient p{
+    font-family: Roboto;
+    font-size: 1.46em;
+    line-height: 127.69%;
+    margin: 2%;
+  }
+
+  .klient aside{
+    display: block;
+  }
+
+
+  .klient img{
+    width:100%;
+    height:100%;
+  }
+
+  #dziecko-piramidka{visibility: hidden; display: none;}
+  #dziecko-zdziwienie{visibility: hidden; display: none;}
+
+  #marki span{
+    font-family: Roboto;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 273.69%;
+    text-align: center;
+    display:block;
+    color: #0F6C02;
+  }
+
+  #marki img{
+    display:inline-block;
+    align-items: center;
+    width:20%;
+    margin: 2% 2% 8% 2%;
+    margin-bottom:
+  }
+
+  #marki figure{
+    text-align:center;
+  }
+
+  #galeria{
+    width:100%;
+  }
+
+  #galeria img{
+    width: 100%;
+    height: 5%;
+    display:block;
+  }
+
+  #godziny_tlo{
+    margin-top: 5%;
+    text-align:center;
+    height: fit-content;
+    align-content: center;
+    align-items: center;
+  }
+
+  #godziny_otwarcia{
+    margin: 5%;
+    background: #E93083;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 1.5em;
+    line-height: 150%;
+  }
+
+  #godziny_otwarcia h2{
+    padding-top: 8%;
+    margin-bottom: 5%;
+  }
+
+  #godziny_otwarcia ul{
+    padding-top: 0%;
+    font-family: Roboto;
+    display: inline-block;
+    list-style-type: none;
+    list-style-position: outside;
+    margin-inline-end: 10px;
+  }
+
+  #dni_tygodnia{
+    padding-inline-start: 0px;
+    font-weight: bold;
+  }
+
+  #kontakt{
+    /* padding: 4%; */
+    margin: 5%;
+    margin-bottom: 0px;
+    background: #0A84FF;
+    color: #ffffff;
+  }
+
+  #kontakt h2{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 150%;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  #kontakt p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #kontakt a{
+    color: #ffffff;
+    font-size: 1.5em;
+    transition: color;
+  }
+
+  #kontakt a:hover{
+    color: #000000;
+  }
+
+  #fbkontakt{
+    margin-right: 5%;
+  }
+
+  #dane{
+    padding: 2%;
+    text-align: center;
+    display:block;
+  }
+
+  #dane img{
+    visibility: hidden;
+    display: none;
+  }
+
+  #photo img{
+    visibility: hidden;
+    display: none;
+  }
+
+  #maps{
+    visibility: hidden;
+    display: none;
+  }
+
+  #maps iframe{
+    width: 90%;
+    height: 400px;
+    border: none;
+  }
+
+  #footerhr{
+    visibility: hidden;
+    margin-top: 5%;
+    color: #000000;
+    border: 1px solid;
+  }
+
+  #footertop{
+    visibility: hidden;
+    display: none;
+  }
+
+  #footertop a{
+    display: inline;
+    height: 20px;
+    font-family: Oswald;
+    font-face: Oswald;
+    font-weight:bold;
+    transition: color;
+  }
+
+  #footertop a:hover{
+    color: #0f6c02;
+  }
+
+
+  #fbfooter{
+    margin-inline-end: 1%;
+    margin-inline-start:30%;
+  }
+
+  .footernav{
+    color: #000000;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-right: 50px;
+    float: right;
+  }
+
+  #footerlower{
+    color: #FFFFFF;
+    text-align:center;
+    margin-top: 1%;
+    padding: 1%;
+    background: #308D23;
+  }
+
+ }
+
+@media screen and (min-width:835px)
+{
+  #godziny_tlo{
+    background: #308D23;
+    background-image: url('../imgs/kredki1.jpg');
+  }
+
+  #godziny_otwarcia{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  #kontakt{
+    margin: 5%;
+    height: 550px;
+  }
+
+  #kontakt h2{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  #dane{
+    width:45%;
+    display:inline-block;
+    float: left;
+  }
+
+  #dane img{
+    visibility: visible;
+    display: inline-block;
+    width: 50%;
+  }
+
+  #photo{
+    visibility: visible;
+    display: inline-block;
+    height: 100%;
+    width: 51%;
+  }
+
+  #photo img{
+    visibility: visible;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #maps{
+    visibility: visible;
+    display: inline-block;
+    width:100%;
+    text-align:center;
+    margin-bottom: 6%;
+  }
+
+  #footerhr{
+    visibility: visible;
+  }
+
+  #footertop{
+    visibility: visible;
+    display: inline;
+    text-decoration: none;
+    font-family: Oswald;
+    font-face: Oswald;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top: 2%;
+  }
+
+  #footerlower{
+    color: #FFFFFF;
+    text-align:center;
+    margin-top: 1%;
+    padding: 1%;
+    background: #308D23;
+  }
+}
+
+@media screen and (min-width:1272px)
+{
+
+  header{
+    width:100%;
+  }
+
+  #logo{
+    display: inline-block;
+    float:left;
+    width:15%;
+    margin: 0.5%;
+  }
+
+  header a{
+    visibility: visible;
+    background: white;
+    font-family: Oswald;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+    color: #000000;
+    display: inline-block;
+    margin-top: 0.5%;
+    padding: 1.5%;
+    float: left;
+    font-size: 1em;
+  }
+
+  #fbheader{
+    font-size: 2em;
+    float: right;
+    margin-right: 2%;
+    margin-top: 0.2%;
+    transition: color, background-color;
+  }
+
+  #fbheader:hover,#fbheader:focus{
+    background-color: #0a84ff;
+    color: #FFFFFF;
+  }
+
+  header> h2{
+    visibility: visible;
+    background: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 2em;
+    color: #000000;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 30%;
+    padding: 1.5%;
+    margin-bottom: 1%
+  }
+
+  nav{
+    visibility: visible;
+    display: inline-block;
+    float:right;
+    clear: both;
+  }
+
+  nav> a{
+    display:inline-block;
+    margin: 0% 0% -0.2% -0.5%;
+    float: right;
+    padding: 1% 70px;
+    border: 3px solid #308D23;
+    border-radius: 20px 20px 0px 0px;
+    font-family: Roboto;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0F6C02;
+    text-decoration: none;
+    transition: all .1s linear;
+  }
+
+  nav> a:hover{
+    background: #E93083;
+    color: #FFFFFF;
+  }
+
+  nav> a:active{
+    background-color: #FFFFFF;
+    color: #e93083;
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+  }
+
+  nav> a:focus{
+    background: #E93083;
+    color: #FFFFFF;
+  }
+
+  hr{
+    display: block;
+    clear:both;
+  }
+
+  #firsthr{
+    border: 5px solid;
+  }
+
+  #intro aside{
+    width: 100%;
+    height: 100%;
+  }
+
+  #dziecko-radosne{
+    visibility: visible;
+    display: flex;
+    float: left;
+    width: 50%;
+  }
+
+  #intro article{
+    display:inline-block;
+    width:50%;
+    display: table;
+    clear: right;
+    padding-bottom: 2.15%;
+  }
+
+  #intro h1{
+    margin-left: 0%;
+    padding:11.5%;
+    padding-bottom:2%;
+  }
+
+  #promocje {
+    display: flex;
+    margin: 4%;
+  }
+
+  .klient article{
+    display:inline-block;
+    width:50%;
+    clear: right;
+  }
+
+  .klient h2{
+    padding-left: 0px;
+    margin-top: 1%;
+  }
+
+  .klient p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .klient aside{
+    display: inline-block;
+    width:50%;
+    float: left;
+  }
+
+
+  .klient img{
+    border-radius: 0px 50px 50px 0px;
+  }
+
+  #dziecko-piramidka{visibility: visible; display: inline-block;}
+  #dziecko-zdziwienie{visibility: visible; display: inline-block;}
+
+  #klient_hurt h2, #klient_przedsz h2{
+    margin-top: 8%
+  }
+
+  #marki img{
+    margin: 2%;
+  }
+
+  #galeria{
+    width:100%;
+    height: min-content;
+  }
+
+  #galeria img{
+    height: 355px;
+    width: 33.1%;
+    display:inline;
+  }
+
+  #godziny_tlo{
+    background: #308D23;
+    background-image: url('../imgs/kredki1.jpg');
+    background-size: cover;
+    text-align:center;
+    padding: 1%;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  #godziny_otwarcia h2{
+    display:block;
+    padding-top: 10%;
+    margin-bottom: 0%;
+    margin-top: 10%;
+  }
+
+ #maps{
+   margin-top: -5%;
+   visibility: visible;
+   display: block;
+   width:100%;
+   text-align:center;
+   margin-bottom: 6%;
+ }
+
+  #footerhr{
+    visibility: visible;
+    display: block;
+    color: #000000;
+    border: 1px solid;
+  }
+
+  #footertop{
+    visibility: visible;
+    display: block;
+    display: inline;
+    text-decoration: none;
+    font-family: Oswald;
+    font-face: Oswald;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top: 2%;
+  }
+}
+
+#cookieinfo * {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cookieinfo {
+    position: fixed;
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #323334;
+    padding: 20px;
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#cookieinfo h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #cdd7da;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 7px;
+}
+
+#cookieinfo p {
+    font-size: 12px;
+    color: #afb4bc;
+    line-height: 1.5em;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+}
+
+#cookieinfo a {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff6000;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+#cookieinfo a:hover {
+    background-color: #ff7925;
+}
