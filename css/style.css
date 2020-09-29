@@ -46,7 +46,7 @@
   background-color: #555;
 }
 
-@media screen and (min-width:340px)
+@media screen and (min-width:310px)
 {
   body{
     overflow-x: hidden;
@@ -176,7 +176,7 @@
     text-align: center;
     font-weight: bold;
     font-family: Oswald;
-    font-size: 2.0em;
+    font-size: 1.1em;
     line-height: 100%;
     text-decoration: underline;
   }
@@ -184,7 +184,7 @@
 
   .klient h2{
     font-family: Roboto-Bold;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 127.69%;
     margin: 2% auto 0% 0%;
     text-align: center;
@@ -192,7 +192,7 @@
 
   .klient p{
     font-family: Roboto;
-    font-size: 1.46em;
+    font-size: 1em;
     line-height: 127.69%;
     margin: 2%;
   }
@@ -212,7 +212,7 @@
 
   #marki span{
     font-family: Roboto;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
     line-height: 273.69%;
     text-align: center;
@@ -224,8 +224,7 @@
     display:inline-block;
     align-items: center;
     width:20%;
-    margin: 2% 2% 8% 2%;
-    margin-bottom:
+    margin: 1% 1% 8% 1%;
   }
 
   #marki figure{
@@ -255,7 +254,7 @@
     background: #E93083;
     color: #ffffff;
     font-family: Oswald;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 150%;
   }
 
@@ -290,7 +289,7 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 1.5em;
     line-height: 150%;
     display: block;
     align-items: center;
@@ -301,13 +300,13 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
   }
 
   #kontakt a{
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1em;
     transition: color;
   }
 
@@ -397,6 +396,23 @@
 
 @media screen and (min-width:835px)
 {
+  #nasza_oferta{
+  font-size: 2em;}
+
+  .klient h2{
+  font-size: 2em;}
+
+  .klient p{
+  font-size: 1.46em
+  margin: 2%;}
+
+  #marki span{
+  font-size: 2em;}
+
+  #marki img{
+    margin: 2% 2% 8% 2%;
+  }
+
   #godziny_tlo{
     background: #308D23;
     background-image: url('../imgs/kredki1.jpg');
@@ -405,6 +421,8 @@
   #godziny_otwarcia{
     margin-left: 30%;
     margin-right: 30%;
+    font-size: 1.5em;
+    line-height: 150%;
   }
 
   #kontakt{
@@ -414,10 +432,18 @@
 
   #kontakt h2{
     display: inline-block;
+    font-size: 2.5em;
     align-items: center;
     text-align: center;
   }
 
+  kontakt p{
+  font-size: 1.5em;
+  }
+
+  #kontakt a{
+    font-size: 1.5em;
+  }
 
   #dane{
     width:45%;
