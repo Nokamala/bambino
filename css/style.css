@@ -138,11 +138,11 @@
     border-radius: 10px 10px 0px 0px;
   }
 
-  #promocje {
+  #promotion {
     margin: 10%;
   }
 
-  #promocje figcaption{
+  #promotion figcaption{
     text-align:center;
     padding: 5%;
     font-family: Roboto;
@@ -171,7 +171,7 @@
     color: #ffffff;
   }
 
-  #nasza_oferta{
+  #offer{
     display: block;
     text-align: center;
     font-weight: bold;
@@ -182,7 +182,7 @@
   }
 
 
-  .klient h2{
+  .client h2{
     font-family: Roboto-Bold;
     font-size: 1.5em;
     line-height: 127.69%;
@@ -190,19 +190,19 @@
     text-align: center;
   }
 
-  .klient p{
+  .client p{
     font-family: Roboto;
     font-size: 1em;
     line-height: 127.69%;
     margin: 2%;
   }
 
-  .klient aside{
+  .client aside{
     display: block;
   }
 
 
-  .klient img{
+  .client img{
     width:100%;
     height:100%;
   }
@@ -210,7 +210,7 @@
   #dziecko-piramidka{visibility: hidden; display: none;}
   #dziecko-zdziwienie{visibility: hidden; display: none;}
 
-  #marki span{
+  #brands span{
     font-family: Roboto;
     font-size: 1em;
     font-weight: bold;
@@ -220,28 +220,28 @@
     color: #0F6C02;
   }
 
-  #marki img{
+  #brands img{
     display:inline-block;
     align-items: center;
     width:20%;
     margin: 1% 1% 8% 1%;
   }
 
-  #marki figure{
+  #brands figure{
     text-align:center;
   }
 
-  #galeria{
+  #gallery{
     width:100%;
   }
 
-  #galeria img{
+  #gallery img{
     width: 100%;
     height: 5%;
     display:block;
   }
 
-  #godziny_tlo{
+  #hrs_bg{
     margin-top: 5%;
     text-align:center;
     height: fit-content;
@@ -249,7 +249,7 @@
     align-items: center;
   }
 
-  #godziny_otwarcia{
+  #opening_hrs{
     margin: 5%;
     background: #E93083;
     color: #ffffff;
@@ -258,12 +258,12 @@
     line-height: 150%;
   }
 
-  #godziny_otwarcia h2{
+  #opening_hrs h2{
     padding-top: 8%;
     margin-bottom: 5%;
   }
 
-  #godziny_otwarcia ul{
+  #opening_hrs ul{
     padding-top: 0%;
     font-family: Roboto;
     display: inline-block;
@@ -272,12 +272,12 @@
     margin-inline-end: 10px;
   }
 
-  #dni_tygodnia{
+  #week{
     padding-inline-start: 0px;
     font-weight: bold;
   }
 
-  #kontakt{
+  #contact{
     /* padding: 4%; */
     margin: 5%;
     margin-bottom: 0px;
@@ -285,7 +285,7 @@
     color: #ffffff;
   }
 
-  #kontakt h2{
+  #contact h2{
     font-family: Oswald;
     font-style: normal;
     font-weight: bold;
@@ -296,7 +296,7 @@
     text-align: center;
   }
 
-  #kontakt p{
+  #contact p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -304,27 +304,27 @@
     text-align: center;
   }
 
-  #kontakt a{
+  #contact a{
     color: #ffffff;
     font-size: 1em;
     transition: color;
   }
 
-  #kontakt a:hover{
+  #contact a:hover{
     color: #000000;
   }
 
-  #fbkontakt{
+  #fbcontact{
     margin-right: 5%;
   }
 
-  #dane{
+  #address{
     padding: 2%;
     text-align: center;
     display:block;
   }
 
-  #dane img{
+  #address img{
     visibility: hidden;
     display: none;
   }
@@ -396,62 +396,62 @@
 
 @media screen and (min-width:835px)
 {
-  #nasza_oferta{
+  #offer{
   font-size: 2em;}
 
-  .klient h2{
+  .client h2{
   font-size: 2em;}
 
-  .klient p{
+  .client p{
   font-size: 1.46em
   margin: 2%;}
 
-  #marki span{
+  #brands span{
   font-size: 2em;}
 
-  #marki img{
+  #brands img{
     margin: 2% 2% 8% 2%;
   }
 
-  #godziny_tlo{
+  #hrs_bg{
     background: #308D23;
     background-image: url('../imgs/kredki1.jpg');
   }
 
-  #godziny_otwarcia{
+  #opening_hrs{
     margin-left: 30%;
     margin-right: 30%;
     font-size: 1.5em;
     line-height: 150%;
   }
 
-  #kontakt{
+  #contact{
     margin: 5%;
     height: 550px;
   }
 
-  #kontakt h2{
+  #contact h2{
     display: inline-block;
     font-size: 2.5em;
     align-items: center;
     text-align: center;
   }
 
-  kontakt p{
+  contact p{
   font-size: 1.5em;
   }
 
-  #kontakt a{
+  #contact a{
     font-size: 1.5em;
   }
 
-  #dane{
+  #address{
     width:45%;
     display:inline-block;
     float: left;
   }
 
-  #dane img{
+  #address img{
     visibility: visible;
     display: inline-block;
     width: 50%;
@@ -617,7 +617,7 @@
     height: 100%;
   }
 
-  #dziecko-radosne{
+  #happy-child{
     visibility: visible;
     display: flex;
     float: left;
@@ -638,23 +638,23 @@
     padding-bottom:2%;
   }
 
-  #promocje {
+  #promotion {
     display: flex;
     margin: 4%;
   }
 
-  .klient article{
+  .client article{
     display:inline-block;
     width:50%;
     clear: right;
   }
 
-  .klient h2{
+  .client h2{
     padding-left: 0px;
     margin-top: 1%;
   }
 
-  .klient p{
+  .client p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -662,40 +662,40 @@
     padding-right: 10%;
   }
 
-  .klient aside{
+  .client aside{
     display: inline-block;
     width:50%;
     float: left;
   }
 
 
-  .klient img{
+  .client img{
     border-radius: 0px 50px 50px 0px;
   }
 
-  #dziecko-piramidka{visibility: visible; display: inline-block;}
-  #dziecko-zdziwienie{visibility: visible; display: inline-block;}
+  #child-toys{visibility: visible; display: inline-block;}
+  #child-surprised{visibility: visible; display: inline-block;}
 
-  #klient_hurt h2, #klient_przedsz h2{
+  #hurt h2, #school h2{
     margin-top: 8%
   }
 
-  #marki img{
+  #brands img{
     margin: 2%;
   }
 
-  #galeria{
+  #gallery{
     width:100%;
     height: min-content;
   }
 
-  #galeria img{
+  #gallery img{
     height: 355px;
     width: 33.1%;
     display:inline;
   }
 
-  #godziny_tlo{
+  #hrs_bg{
     background: #308D23;
     background-image: url('../imgs/kredki1.jpg');
     background-size: cover;
@@ -706,7 +706,7 @@
   }
 
 
-  #godziny_otwarcia h2{
+  #opening_hrs h2{
     display:block;
     padding-top: 10%;
     margin-bottom: 0%;
